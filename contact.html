@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Letha contact page. Handcrafted, sustainably made shoes with organic leather">
+  <meta name="keywords" content="Letha, leather shoes, men fashion, handmade, custom shoes">
+  <title>Letha | Contact</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="upper-nav">
+    <div class="upper-line">Sign up for our newsletter
+      now and get 10% off your first order! <b>Register now <i class="fa fa-angle-double-right"
+          aria-hidden="true"></i></b></div>
+    <a class="logo" href="home-letha.html">Letha</a>
+    <nav class="topnav-right">
+      <a href="#"><i class="fa fa-user" aria-hidden="true"></i></a>
+      <a href="#"><i class="fa fa-heart-o"></i></a>
+      <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+    </nav>
+  </div>
+  <div class="hero-image">
+    <div class="hero-text">
+      <h1 id="timer">LETHA SHOES</h1><br>
+      <a href="shoes.html" class="button">View collections</a>
+    </div>
+  </div>
+  <nav class="topnav" id="myTopnav">
+    <div class="dropdown">
+      <button class="dropbtn">Shoes
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="shoes.html">New arrivals</a>
+        <a href="casualshoes.html">Casual shoes</a>
+        <a href="dressshoeshtml">Dress shoes</a>
+        <a href="outdoorshoes.html">Outdoor shoes</a>
+      </div>
+    </div>
+    <a href="shoecare.html">Shoecare</a>
+    <div class="dropdown">
+      <button class="dropbtn">About us
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="about.html">Our story</a>
+        <a href="#">Shipping and returns</a>
+        <a href="#">Guarantees</a>
+        <a href="#">FAQ</a>
+      </div>
+    </div>
+    <a id="active" href="contact.html">Contact us</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  </nav>
+  <main>
+    <div class="flex-container">
+      <div class="contact-container">
+        <div class="contact-section">
+          <section class="contact-one">
+            <h3>CONTACT US</h3>
+            <p>Please contact us for any questions! We can help you with orders, returns or anything else that you have
+              on
+              your mind!</p>
+            <h4>Email</h4>
+            <p>Please fill out the form if you would like assistance via email, or use <a
+                href="mailto:thalia.rebecca@gmail.com">Info@Letha.no</a></p>
+            <h4>Phone</h4>
+            <p>Call us at +47 666 66 666 (available mon-fri 8am-5pm)</p>
+            <h4>Visit</h4>
+            <p>Main office is located at Osloveien 337, 0448 Oslo</p>
+          </section>
+        </div>
+        <div class="form-container">
+          <form id="contact-form" action="/action_page.php">
+            <div id="validMessage"></div>
+            <div class="row">
+              <div class="field">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Name goes here..">
+                <div class="formValidation-error" id="nameError">Name is required</div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="field">
+                <label for="email">Email Address</label>
+                <input type="text" id="email" name="mail" placeholder="Email goes here..">
+                <div class="formValidation-error" id="emailError">Invalid email address</div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="field">
+                <label for="subject">Comments/Questions</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                <div class="formValidation-error" id="subjectError">Subject must be least 10 characters long</div>
+                <input type="submit" value="Submit">
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="js/contactForm.js"></script>
+  <script src="js/timer.js"></script>
+  <footer>
+    <div class="footer">
+      <div class="footer-box-1">
+        <form class="subscribe-form" action="/action_page.php">
+          <div class="form-container-text">
+            <h2>NEWSLETTER</h2>
+            <p>Sign up below and get the latest news, special offers and more!</p>
+            <input class="sub-input" type="text" placeholder="Email address" name="mail" required>
+            <input class="sub-button" type="submit" value="Subscribe">
+          </div>
+        </form>
+      </div>
+      <div class="footer-box-2">
+        <div class="box-2-inner">
+          <div class="f-box-1">
+            <nav class="footer-nav">
+              <h4>Quick Links</h4>
+              <a href="home-letha.html">Home</a>
+              <a href="shoes.html">Shoes</a>
+              <a href="about.html">About us</a>
+              <a href="contact.html">Contact us</a>
+            </nav>
+          </div>
+          <div class="f-box-2">
+            <h4>Contact</h4>
+            <a href="mailto:thalia.rebecca@gmail.com">Info@Letha.no</a>
+            <p>+47 666 66 666</p>
+            <div class="social-media">
+              <a href="#"><img src="images/face.png" alt="facebook logo"></a>
+              <a href="#"><img src="images/insta.png" alt="instagram logo"></a>
+              <a href="#"><img src="images/linkedin.png" alt="linkedin logo"></a>
+            </div>
+          </div>
+          <div class="f-box-3">
+            <h4>Trust in Letha</h4>
+            <p><i class="fa fa-check" aria-hidden="true"></i> Shipping world-wide</p>
+            <p><i class="fa fa-check" aria-hidden="true"></i> Quality guarantee</p>
+            <p><i class="fa fa-check" aria-hidden="true"></i> Safe payments through PayPal</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
